@@ -1,12 +1,15 @@
-import { ITEMS } from "../../app/shared/ITEMS";
+// import { ITEMS } from "../../app/shared/ITEMS";
 import { Col, Row } from "reactstrap";
 import ItemCard from "./ItemCard";
+import { selectAllItems } from "./itemsSlice";
 
 const ItemsList = () => {
+  const items = selectAllItems();
+
   return (
     <div className="items-container">
       <Row className="items-row">
-        {ITEMS.map((item) => {
+        {items.map((item) => {
           return (
             <Col sm="4" key={item.id}>
               <ItemCard item={item} />

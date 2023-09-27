@@ -1,11 +1,12 @@
 import { Card, CardImg, CardImgOverlay, CardTitle } from "reactstrap";
 
-const ItemCard = (props) => {
+const ItemCard = ({ item }) => {
+  const { image, name } = item;
   return (
     <Card className="card-item">
-      <CardImg width="100%" src={props.item.image} alt={props.item.name} />
+      <CardImg width="100%" src={image} alt={name} />
       <CardImgOverlay>
-        <CardTitle>{props.item.name}</CardTitle>
+        <CardTitle>{name}</CardTitle>
       </CardImgOverlay>
     </Card>
   );
