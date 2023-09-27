@@ -3,7 +3,6 @@
 }
 
 .navbar-color {
-  /* background-color: #e3f2fd; */
   background: linear-gradient(to top, #f9dfd4 0%, #ace0f9 100%);
 }
 .navbar-brand {
@@ -18,20 +17,19 @@
   margin-left: 20px;
   /* max-width: 4rem; */
 }
-.items-container {
+/* .items-container {
   width: 90%;
   margin: auto;
   margin-top: 30px;
 }
 .items-row {
   text-align: center;
-  /* margin-left: 20px; */
   margin: auto;
   background-color: #f9ede8;
-}
+} */
 .card-item {
   width: 70%;
-  margin: 10px auto 20px;
+  margin: 30px auto 20px;
 }
 .card-img-overlay .card-title {
   color: #f4ebe8;
