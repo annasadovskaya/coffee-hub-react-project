@@ -1,5 +1,5 @@
-.items-row {
-  background-color: #fcf0eb;
+.App {
+  background-color: #f9ede8;
 }
 
 .navbar-color {
@@ -18,14 +18,21 @@
   margin-left: 20px;
   /* max-width: 4rem; */
 }
-
+.items-container {
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+}
 .items-row {
   text-align: center;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   margin: auto;
-  background-color: #f9dfd4;
+  background-color: #f9ede8;
 }
-
+.card-item {
+  width: 70%;
+  margin: 10px auto 20px;
+}
 .card-img-overlay .card-title {
   color: #f4ebe8;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
