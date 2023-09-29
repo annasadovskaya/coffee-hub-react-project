@@ -22,11 +22,11 @@
   margin: auto;
   margin-top: 30px;
 } */
-/* .items-row {
+.items-row {
   text-align: center;
   margin: auto;
   background-color: #f9ede8;
-} */
+}
 .card-item {
   width: 70%;
   margin: 30px auto 20px;
@@ -45,4 +45,15 @@
   /* background-color: #c2e0ef; */
   background: linear-gradient(to top, #c4e9fa 0%, #f9dfd4 100%);
   padding: #c2e0ef;
+}
+.home-page-card {
+  max-width: fit-content;
+  width: 800px;
+  margin: auto;
+}
+.home-page-card-text {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 600;
 }

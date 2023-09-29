@@ -9,6 +9,7 @@ import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-social/bootstrap-social.css";
 import "font-awesome/css/font-awesome.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import "typeface-lobster";
 import "typeface-open-sans";
 
