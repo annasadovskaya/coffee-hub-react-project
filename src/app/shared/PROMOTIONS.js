@@ -1,4 +1,4 @@
-import coffeeAndOceanImg from "../assets/img/coffee-ocean1.jpg";
+import coffeeAndOceanImg from "../assets/img/coffee-ocean-cropped.jpg";
 import coffeeImg from "../assets/img/coffee2.jpg";
 
 export const PROMOTIONS = [

@@ -11,3 +11,9 @@ export const selectAllItems = () => {
 export const selectItemById = (id) => {
   return ITEMS.find((item) => item.id === id);
 };
+
+//Option with 2 cards on the homepage
+
+// export const selectFeaturedItem = () => {
+//   return ITEMS.find((item) => item.featured);
+// };

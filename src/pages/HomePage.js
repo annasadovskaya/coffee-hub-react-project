@@ -1,23 +1,24 @@
 import { Container } from "reactstrap";
 import DisplayList from "../features/display/DisplayList";
-import DisplayCarousel from "../features/display/DisplayCarousel";
+import DisplayGridImages from "../features/display/DisplayGridImages";
 
-const HomePage = () => {
-  return (
-    <Container>
-      <DisplayList />
-    </Container>
-  );
-};
-
-//Carousel - not working
+//With card
 
 // const HomePage = () => {
 //   return (
 //     <Container>
-//       <DisplayCarousel />
+//       <DisplayList />
 //     </Container>
 //   );
 // };
+
+//With Grid
+const HomePage = () => {
+  return (
+    <Container fluid="md">
+      <DisplayGridImages />
+    </Container>
+  );
+};
 
 export default HomePage;

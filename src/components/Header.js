@@ -7,7 +7,7 @@ import {
   Nav,
   NavItem,
 } from "reactstrap";
-import CoffeHubLogo from "../app/assets/img/coffee-hub-img1.jpg";
+import CoffeHubLogo from "../app/assets/img/coffee-hub-img1.png";
 import { NavLink } from "react-router-dom";
 
 const Header = () => {

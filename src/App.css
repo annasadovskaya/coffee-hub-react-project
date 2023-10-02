@@ -1,5 +1,6 @@
 .App {
   background-color: #f9ede8;
+  /* background-color: #f9f4f1; */
 }
 
 .navbar-color {
@@ -39,6 +40,11 @@
   font-weight: 600;
 }
 
+/* Home page with grid */
+.home-page-grid-image {
+  width: 480px;
+}
+
 .site-footer {
   padding: 20px 0;
   /* margin-top: 2rem; */
@@ -46,11 +52,17 @@
   background: linear-gradient(to top, #c4e9fa 0%, #f9dfd4 100%);
   padding: #c2e0ef;
 }
-.home-page-card {
+
+/* For one card on the home page */
+/* .home-page-card {
   max-width: fit-content;
   width: 800px;
   margin: auto;
-}
+} */
+
+/* .home-page-card-body {
+  line-height: 30px;
+} */
 .home-page-card-text {
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
