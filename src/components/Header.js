@@ -27,34 +27,35 @@ const Header = () => {
           alt="Coffee hub logo"
           className="float-start me-3"
         />
-        <h1 className="mt-3">CoffeeHub</h1>
+        <h1 className="mt-3 logo-heading">CoffeeHub</h1>
       </NavbarBrand>
       <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
       <Collapse isOpen={menuOpen} navbar>
         <Nav className="ms-auto" navbar>
           <NavItem>
             <NavLink className="nav-link" to="/">
-              <i className="fa fa-home fa-lg" /> Home
+              <h5>Home</h5>
             </NavLink>
           </NavItem>
           <NavItem>
             <NavLink className="nav-link" to="/menu">
-              <i className="fa fa-list fa-lg" /> Menu
-            </NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink className="nav-link" to="/contact">
-              <i className="fa fa-address-card fa-lg" /> Contact
+              <h5>Menu</h5>
             </NavLink>
           </NavItem>
           <NavItem>
             <NavLink className="nav-link" to="/login">
-              <i className="fa-solid fa-right-to-bracket fa-lg" /> Login
+              <h5>Login</h5>
             </NavLink>
           </NavItem>
           <NavItem>
+            <NavLink className="nav-link" to="/contact">
+              <h5>Contact</h5>
+            </NavLink>
+          </NavItem>
+
+          <NavItem>
             <NavLink className="nav-link" to="/about">
-              <i className="fa fa-info fa-lg" /> About
+              <h5>About</h5>
             </NavLink>
           </NavItem>
         </Nav>

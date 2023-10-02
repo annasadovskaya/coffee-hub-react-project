@@ -1,8 +1,8 @@
 .App {
   background-color: #f9ede8;
-  /* background-color: #f9f4f1; */
 }
 
+/* Navbar */
 .navbar-color {
   background: linear-gradient(to top, #f9dfd4 0%, #ace0f9 100%);
 }
@@ -18,6 +18,11 @@
   margin-left: 20px;
   /* max-width: 4rem; */
 }
+.nav-link,
+.logo-heading {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 800;
+}
 /* .items-container {
   width: 90%;
   margin: auto;
@@ -29,17 +34,16 @@
   background-color: #f9ede8;
 }
 .card-item {
-  width: 70%;
-  margin: 30px auto 20px;
+  width: 95%;
 }
-.card-img-overlay .card-title {
+.card-img-overlays,
+.card-title {
   color: #f4ebe8;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: large;
   font-weight: 600;
 }
-
 /* Home page with grid */
 .home-page-grid-image {
   width: 480px;
@@ -68,4 +72,19 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-weight: 600;
+}
+
+/*Items Detail page*/
+.item-detail-card {
+  width: 70%;
+  margin: auto;
+}
+.item-detail-title {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+h3 {
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }

@@ -8,12 +8,15 @@ export const selectAllItems = () => {
 //   return ITEMS[Math.floor(Math.random() * ITEMS.length)];
 // };
 
+// export const selectItemById = (id) => {
+//   return ITEMS.find((item) => item.id === id);
+// };
+
 export const selectItemById = (id) => {
-  return ITEMS.find((item) => item.id === id);
+  return ITEMS.find((item) => item.id === parseInt(id));
 };
 
 //Option with 2 cards on the homepage
-
 // export const selectFeaturedItem = () => {
 //   return ITEMS.find((item) => item.featured);
 // };

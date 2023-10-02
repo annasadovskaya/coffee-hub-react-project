@@ -6,6 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import ContactPage from "./pages/ContactPage";
 import LoginPage from "./pages/LoginPage";
+import ItemDetailPage from "./pages/ItemDetailPage";
 
 import "./App.css";
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="contact" element={<ContactPage />} />
         <Route path="menu" element={<ItemsMenuPage />} />
         <Route path="login" element={<LoginPage />} />
+        <Route path="menu/:itemId" element={<ItemDetailPage />} />
       </Routes>
       <Footer />
     </div>
