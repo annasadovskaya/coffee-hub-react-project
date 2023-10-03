@@ -40,7 +40,7 @@ const Footer = () => {
               className="btn btn-link"
               href="mailto:notreal@notreal.co"
             >
-              <i className="fa-solid fa-envelope" /> info@coffehub.com
+              <i className="fa-solid fa-envelope" /> info@coffeehub.com
             </a>
           </Col>
         </Row>
