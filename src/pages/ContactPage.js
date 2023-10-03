@@ -15,7 +15,7 @@ const ContactPage = () => {
             <br />
             U.S.A
           </address>
-          <div>
+          <div className="cell-email-info">
             <a role="button" className="btn btn-link" href="tel:+12065551234">
               <i className="fa fa-phone" /> 1-222-333-4444
             </a>
@@ -31,13 +31,13 @@ const ContactPage = () => {
         </Col>
       </Row>
 
-      <Row className="row-content mt-5">
+      {/* <Row className="row-content mt-5">
         <Col xs="12">
           <h2 className="feedback-header">Send Us Your Feedback</h2>
           <hr />
         </Col>
         <Col md="10">TBD: ContactForm</Col>
-      </Row>
+      </Row> */}
     </Container>
   );
 };

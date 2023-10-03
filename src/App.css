@@ -20,13 +20,13 @@
 .logo-heading {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 700;
-  color: #1a1c1a;
+  color: #1e0d0a;
 }
 
 /*Breadcrumbs*/
 .breadcrumbs {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: #1a1c1a;
+  color: #1e0d0a;
   font-size: 20px;
 }
 .home-link,
@@ -35,16 +35,16 @@
   color: #6c757d;
 }
 .home-link:hover {
-  color: #1a1c1a;
+  color: #1e0d0a;
 }
 .menu-link:hover {
-  color: #1a1c1a;
+  color: #1e0d0a;
 }
 
 .header {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 800;
-  color: #1a1c1a;
+  color: #1e0d0a;
 }
 
 .items-row {
@@ -57,7 +57,7 @@
 }
 .card-img-overlays,
 .card-title {
-  color: #f4ebe8;
+  color: #6d6562;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: large;
@@ -92,7 +92,7 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 h3 {
-  color: black;
+  color: #1e0d0a;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -102,11 +102,16 @@ h3 {
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 170px;
 }
 .address-header,
 .feedback-header {
   font-weight: 800;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  margin-top: 20px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.cell-email-info {
+  margin-top: 30px;
 }

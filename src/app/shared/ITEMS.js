@@ -1,8 +1,13 @@
-import americanoImg from "../assets/img/americano.jpg";
-import caffeLatteImg from "../assets/img/caffe-latte.jpg";
-import caffeMochaImg from "../assets/img/caffe-mocha.jpg";
-import capuccinoImg from "../assets/img/capuccino.jpg";
-import caramelMacchiatoImg from "../assets/img/caramel-macchiato.jpg";
+import americanoImg from "../assets/img/americano1.jpg";
+import caffeLatteImg from "../assets/img/latte1.jpg";
+import caffeMochaImg from "../assets/img/mocha1.jpg";
+import capuccinoImg from "../assets/img/cappuccino1.jpg";
+import caramelMacchiatoImg from "../assets/img/macchiato1.jpg";
+import espressoImg from "../assets/img/espresso1.jpg";
+import frenchVanillaImg from "../assets/img/french-vanilla1.jpg";
+import darkChocolateImg from "../assets/img/hot-chocolate1.jpg";
+import teaImg from "../assets/img/tea1.jpg";
+
 import pumpkinSpiceLatteImg from "../assets/img/pumpkin-spice-latte.jpg";
 
 export const ITEMS = [
@@ -56,6 +61,18 @@ export const ITEMS = [
   },
   {
     id: 4,
+    name: "Espresso",
+    image: espressoImg,
+    featured: true,
+    calories: 10,
+    sugar: 0,
+    fat: 0,
+    dairyfree: true,
+    description:
+      "Our smooth signature Espresso Roast with rich flavor and caramelly sweetness is at the very heart of everything we do.",
+  },
+  {
+    id: 5,
     name: "Caramel Macchiato",
     image: caramelMacchiatoImg,
     featured: true,
@@ -67,15 +84,51 @@ export const ITEMS = [
       "Freshly steamed milk with vanilla-flavored syrup marked with espresso and topped with a caramel drizzle for an oh-so-sweet finish.",
   },
   {
-    id: 5,
-    name: "Pumpkin Spice Latte",
-    image: pumpkinSpiceLatteImg,
-    featured: false,
-    calories: 390,
-    sugar: 50,
-    fat: 14,
+    id: 6,
+    name: "French Vanilla",
+    image: frenchVanillaImg,
+    featured: true,
+    calories: 90,
+    sugar: 13,
+    fat: 2.5,
     dairyfree: false,
     description:
-      "Our signature espresso and steamed milk with the celebrated flavor combination of pumpkin, cinnamon, nutmeg and clove. Enjoy it topped with whipped cream and real pumpkin-pie spices.",
+      "Our signature French Vanilla Coffee is a more complex version of a classic vanilla coffee. Instead of plain vanilla syrup, this concoction is usually made with the extract from vanilla bean pods or flavored hazelnut and vanilla syrups.",
   },
+  {
+    id: 7,
+    name: "Hot Chocolate",
+    image: darkChocolateImg,
+    featured: true,
+    calories: 370,
+    sugar: 37,
+    fat: 16,
+    dairyfree: false,
+    description:
+      "Steamed milk with chocolate-flavored syrups. Topped with sweetened whipped cream and chocolate-flavored drizzle. A timeless classic made to sweeten your spirits.",
+  },
+  {
+    id: 8,
+    name: "Earl Grey Tea",
+    image: teaImg,
+    featured: true,
+    calories: 0,
+    sugar: 0,
+    fat: 0,
+    dairyfree: true,
+    description:
+      "We take a strong black tea base and add the essence of bergamot, a citrus fruit with subtle lemon and floral lavender notes, to create this aromatically awesome tea flavor.",
+  },
+  // {
+  //   id: 9,
+  //   name: "Pumpkin Spice Latte",
+  //   image: pumpkinSpiceLatteImg,
+  //   featured: false,
+  //   calories: 390,
+  //   sugar: 50,
+  //   fat: 14,
+  //   dairyfree: false,
+  //   description:
+  //     "Our signature espresso and steamed milk with the celebrated flavor combination of pumpkin, cinnamon, nutmeg and clove. Enjoy it topped with whipped cream and real pumpkin-pie spices.",
+  // },
 ];
