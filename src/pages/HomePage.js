@@ -1,6 +1,7 @@
 import { Container } from "reactstrap";
 import DisplayList from "../features/display/DisplayList";
 import DisplayGridImages from "../features/display/DisplayGridImages";
+import SubHeader from "../components/SubHeader";
 
 //With card
 
@@ -15,7 +16,8 @@ import DisplayGridImages from "../features/display/DisplayGridImages";
 //With Grid
 const HomePage = () => {
   return (
-    <Container fluid="md">
+    <Container fluid="md" className="mb-4">
+      <SubHeader current="Home" />
       <DisplayGridImages />
     </Container>
   );

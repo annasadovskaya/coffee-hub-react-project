@@ -21,8 +21,34 @@
 .nav-link,
 .logo-heading {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: 800;
+  font-weight: 700;
+  color: #1a1c1a;
 }
+
+/*Breadcrumbs*/
+.breadcrumbs {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #1a1c1a;
+  font-size: 20px;
+}
+.home-link,
+.menu-link {
+  text-decoration: none;
+  color: #6c757d;
+}
+.home-link:hover {
+  color: #1a1c1a;
+}
+.menu-link:hover {
+  color: #1a1c1a;
+}
+
+.header {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 800;
+  color: #1a1c1a;
+}
+
 /* .items-container {
   width: 90%;
   margin: auto;
@@ -49,6 +75,7 @@
   width: 480px;
 }
 
+/*Footer*/
 .site-footer {
   padding: 20px 0;
   /* margin-top: 2rem; */

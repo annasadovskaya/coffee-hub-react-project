@@ -27,10 +27,12 @@
 
 import { Container } from "reactstrap";
 import ItemsList from "../features/items/ItemsList";
+import SubHeader from "../components/SubHeader";
 
 const ItemsMenuPage = () => {
   return (
     <Container className="mb-5">
+      <SubHeader current="Menu" />
       <ItemsList />
     </Container>
   );

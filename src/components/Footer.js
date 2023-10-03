@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="site-footer">
       <Container>
-        <Row>
+        <Row className="mt-4 mb-5">
           {/* <Col xs={{ size: 4, offset: 1 }} sm="4">
             <h5>this will be site navigation!</h5>
           </Col> */}

@@ -27,7 +27,7 @@ const Header = () => {
           alt="Coffee hub logo"
           className="float-start me-3"
         />
-        <h1 className="mt-3 logo-heading">CoffeeHub</h1>
+        <h2 className="mt-3 logo-heading">CoffeeHub</h2>
       </NavbarBrand>
       <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
       <Collapse isOpen={menuOpen} navbar>
